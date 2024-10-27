@@ -1,0 +1,8 @@
+FROM itzg/minecraft-server
+
+ENV TYPE=FTBA \
+    FTB_MODPACK_ID=FTBRevelation \
+    FTB_MODPACK_VERSION_ID=3.7.0 \ 
+    EULA=TRUE
+
+EXPOSE 25565
