@@ -9,3 +9,5 @@ ENV TYPE=FTBA \
     JVM_OPTS="-XX:+UseG1GC -XX:MaxGCPauseMillis=50"
 
 EXPOSE 25565
+
+VOLUME /data
