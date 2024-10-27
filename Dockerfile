@@ -13,6 +13,7 @@ RUN set -eux; \
 
 EXPOSE 25565
 
+# Accept the EULA
 RUN echo "eula=true" > eula.txt
 
-CMD ["java", "-Xmx4G", "-Xms2G", "-jar", "FTBserver.jar", "nogui"]
+CMD ["sh", "start.sh"]
